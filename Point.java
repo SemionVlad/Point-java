@@ -27,8 +27,8 @@ public class Point {
      * Constructs a new Point with specified coordinates.
      * If negative coordinates are provided, they are set to 0.
      *
-     * @param x the x-coordinate
-     * @param y the y-coordinate
+     * @param _x the x-coordinate
+     * @param _y the y-coordinate
      */
     public Point(int x, int y) {
         this._x = (x < 0) ? 0 : x;
@@ -86,6 +86,16 @@ public class Point {
     // Positional Comparison Methods
 
     /**
+     * Checks if two points are equal to each other.
+     *
+     * @param other the point to compare with
+     * @return true if this points are equal to each other.
+     */
+    public boolean equals(Point other) {
+        return (this._x == other.getX() ) && (this._x == other.getX());
+    }
+    
+    /**
      * Checks if this point is above another point.
      *
      * @param other the point to compare with
@@ -126,16 +136,6 @@ public class Point {
     }
 
     // Utility Methods
-    
-    /**
-     * Checks if two points are equal to each other.
-     *
-     * @param other the point to compare with
-     * @return true if this points are equal to each other.
-     */
-    public boolean equals(Point other) {
-        return (this._x == other.getX()) && (this._y == other.getY());
-    }
     
     /**
      * Returns a string representation of the point in the format "(x,y)".
