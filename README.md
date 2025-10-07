@@ -155,5 +155,8 @@ To test the Point class:
 - Thread safety implementation
 - Additional geometric calculations
 
+## 📄 License
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 ---
-*Note: This implementation is designed for educational purposes and demonstrates object-oriented programming concepts in Java.*
+Created by [SemionVlad](https://github.com/SemionVlad) for academic and portfolio purposes. This repository is intended for **non-commercial**, **educational** sharing only.
