@@ -1,8 +1,10 @@
-# Point Class
-## 2D Coordinate System Implementation
+# Point Class - 2D Coordinate System Implementation
 
-**Author:** Shimon Esterkin (SemionVlad)  
-**Version:** 2023B
+## Author
+- **Name**: Shimon Esterkin (SemionVlad) 
+- **ID**: *****2258   
+- **Semester**: 2023b
+
 
 ## Overview
 The Point class implements a two-dimensional point in a coordinate system with non-negative coordinates. This class provides comprehensive functionality for point manipulation, comparison, and calculations in 2D space.
