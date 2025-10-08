@@ -1,4 +1,15 @@
 # Point Class - 2D Coordinate System Implementation
+<!-- Tech & meta badges (static; no CI required) -->
+![Language: Java](https://img.shields.io/badge/Language-Java-red?logo=java)
+![Paradigm: OOP](https://img.shields.io/badge/Paradigm-OOP-4c1)
+![Domain: 2D Geometry](https://img.shields.io/badge/Domain-2D%20Geometry-0aa)
+![Coords: Non-negative ints](https://img.shields.io/badge/Coords-Non--negative%20ints-795548)
+![Complexity: O(1) ops](https://img.shields.io/badge/Complexity-O(1)%20ops-999)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+> Java OOP point class for a 2D non-negative coordinate system: move, distance, midpoint, and positional relations; simple O(1) operations with input validation.
+
+
 
 ## Author
 - **Name**: Shimon Esterkin (SemionVlad) 
@@ -156,9 +167,6 @@ To test the Point class:
 - Scaling operations
 - Thread safety implementation
 - Additional geometric calculations
-
-## 📄 License
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ---
 Created by [SemionVlad](https://github.com/SemionVlad) for academic and portfolio purposes. This repository is intended for **non-commercial**, **educational** sharing only.
